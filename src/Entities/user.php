@@ -18,3 +18,11 @@ class User {
         $this->points = $points;
         $this->label_role = $label_role;
     }
+    public function getId(): ?int { return $this->id; }
+    public function getNom(): string { return $this->nom; }
+    public function getPrenom(): string { return $this->prenom; }
+    public function getEmail(): string { return $this->email; }
+    public function getPassword(): string { return $this->password; }
+    public function getPoints(): int { return $this->points; }
+    public function getLabelRole(): string { return $this->label_role; }
+}
